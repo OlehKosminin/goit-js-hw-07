@@ -8,7 +8,7 @@ function createGaleryImg(images) {
         <a class="gallery__link" href="${original}">
           <img
             class="gallery__image"
-            src="${toggleUrl}"
+            src="${preview}"
             data-source="${original}"
             alt="${description}"
           />
