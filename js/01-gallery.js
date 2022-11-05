@@ -4,7 +4,6 @@ import { galleryItems } from "./gallery-items.js";
 function createGaleryImg(images) {
   return images
     .map(({ preview, original, description }) => {
-      let toggleUrl = preview;
       return `<div class="gallery__item">
         <a class="gallery__link" href="${original}">
           <img
